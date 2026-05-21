@@ -66,22 +66,52 @@ ul {
     letter-spacing: 10%;
 }
 
-figcaption {
+figcaption, nav, .statement {
     font-family: "Work Sans";
-    font-size: small;
-    text-align: center;
     line-height: 150%;
 }
 
-.title-wrapper {
+figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+.selected {
+    color: var(--text-secondary);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+    right: 0;
+}
+
+nav, .statement {
+    font-size: 1rem;
+}
+
+.statement {
+    width: 40%;
+    max-width: 1000px;
+}
+
+.title-wrapper, .statement-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     height: 100vh;
     padding: 12rem 2rem;
     color: var(--text-primary);
 }
+
+.title-wrapper {
+    justify-content: space-between;
+}
+
+.statement-wrapper {
+   justify-content: center;
+} 
 
 
 /* .index-wrapper {
