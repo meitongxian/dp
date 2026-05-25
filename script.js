@@ -1,8 +1,26 @@
+// resize vh for mobile
+mobileResize();
+
+function mobileResize() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+window.addEventListener('resize', () => {
+    mobileResize();
+});
+
+
+// small caps
+
 let capitalise = document.querySelectorAll(".small-caps");
 
 capitalise.forEach((phrase) => {
     phrase.innerText = phrase.innerText.toUpperCase();
 });
+
+
+// place index
 
 function placeIndex() {
     let indexItems = document.querySelectorAll(".index-item");
