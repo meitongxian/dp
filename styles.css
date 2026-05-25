@@ -142,6 +142,10 @@ nav, .statement {
         font-size: 0.8rem;
     }
 
+    .title-wrapper {
+        padding: 6rem 6rem;
+    }
+
     .credits, .statement {
         width: 90%;
     }
