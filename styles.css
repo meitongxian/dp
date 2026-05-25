@@ -143,11 +143,11 @@ nav, .statement {
     }
 
     .title-wrapper {
-        padding: 8rem 6rem;
+        padding: 10rem 6rem;
     }
 
     .credits, .statement {
-        width: 90%;
+        width: 85%;
     }
 
 }
