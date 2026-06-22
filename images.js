@@ -12,5 +12,6 @@ for (let i = 0; i < 11; i++) {
     });
     indexLinks[i].addEventListener("mouseleave", () => {
         imgWrapper.classList.remove("img-wrapper_active");
+        img.src = "";
     });
 }
